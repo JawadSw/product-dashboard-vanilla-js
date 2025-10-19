@@ -19,7 +19,6 @@ products.forEach(product => {
 });
 }
 
-fetchProductsThen();
 
 //step 4
 async function fetchProductsAsync() {
@@ -59,7 +58,7 @@ function displayProducts(products) {
     container.appendChild(card);
   });
 }
-fetchProductsAsync();
+
 //step 6
 function handleError(error) {
   console.error('An error occurred:', error?.message || error);
