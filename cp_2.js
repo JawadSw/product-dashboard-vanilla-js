@@ -60,3 +60,7 @@ function displayProducts(products) {
   });
 }
 fetchProductsAsync();
+//step 6
+function handleError(error) {
+  console.error('An error occurred:', error?.message || error);
+}
