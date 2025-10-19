@@ -64,3 +64,6 @@ fetchProductsAsync();
 function handleError(error) {
   console.error('An error occurred:', error?.message || error);
 }
+//step 7
+fetchProductsThen();
+fetchProductsAsync();
