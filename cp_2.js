@@ -9,4 +9,12 @@ function fetchProductsThen() {
 
         })
 .then(products => {
-   
+    
+products.forEach(product => {
+    console.log(product.fields.name);
+});
+})
+.catch(error => {
+    console.error("An error occurred:", error.message);
+});
+}
