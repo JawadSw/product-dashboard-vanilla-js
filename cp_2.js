@@ -36,3 +36,7 @@ async function fetchProductsAsync() {
     }
 
     }
+    
+//step 5
+function displayProducts(products) 
+
