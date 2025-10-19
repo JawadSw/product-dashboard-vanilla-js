@@ -59,3 +59,4 @@ function displayProducts(products) {
     container.appendChild(card);
   });
 }
+fetchProductsAsync();
